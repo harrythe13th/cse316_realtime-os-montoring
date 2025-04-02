@@ -15,7 +15,7 @@ The **Resource Monitoring Dashboard** aims to provide real-time insights into sy
 * **Data Visualization**: Presents metrics in an understandable format using graphs and charts.
 * **Process Control**: Enables users to find and terminate resource-heavy processes.
 
-# Installation
+# Installation and Usage
 ## Local Setup
 
 You need to have Python(>=3.12) installed on your system.
@@ -27,36 +27,30 @@ $ python --version
 Python 3.13.1
 ```
 
-
 Clone this repo.
 ```
 git clone https://github.com/harrythe13th/cse316_realtime-os-montoring && cd cse316_realtime-os-montoring
 ```
-
 
 Create a venv for the dependencies.
 ```
 python -m venv venv
 ```
 
-
 Activate the venv.
 ```
 source venv/bin/activate
 ```
-
 
 Install the dependencies.
 ```
 pip install -r requirements.txt
 ```
 
-
 Start monitor.
 ```
 python3 enhanced_process_monitor.py
 ```
-
 
 ## Usage
 ### Web Mode
@@ -64,7 +58,6 @@ The WebUI will be available at port 9999 accessible from your browser as:
 ```
 localhost:9999
 ```
-
 
 # **Features**
 
