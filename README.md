@@ -15,6 +15,43 @@ The **Resource Monitoring Dashboard** aims to provide real-time insights into sy
 * **Data Visualization**: Presents metrics in an understandable format using graphs and charts.
 * **Process Control**: Enables users to find and terminate resource-heavy processes.
 
+# Installation
+## Local Setup
+
+First, you need to have Python(>=3.12) installed on your system
+```
+#For Debian based
+sudo apt install python3 -y
+
+$ python --version
+Python 3.13.1
+```
+
+Clone this repo
+```
+git clone https://github.com/harrythe13th/cse316_realtime-os-montoring
+```
+
+Create venv
+```
+python -m venv venv
+```
+
+Activate venv
+```
+source venv/bin/activate
+```
+
+Install the dependencies
+```
+pip install -r cse316_realtime-os-montoring/requirements.txt
+```
+
+start monitor 
+```
+python3 <repo name>/enhanced_process_monitor.py
+```
+
 # **Features**
 
 ## **Data Collection & Processing**
