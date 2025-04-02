@@ -18,7 +18,7 @@ The **Resource Monitoring Dashboard** aims to provide real-time insights into sy
 # Installation
 ## Local Setup
 
-First, you need to have Python(>=3.12) installed on your system
+You need to have Python(>=3.12) installed on your system.
 ```
 #For Debian based
 sudo apt install python3 -y
@@ -27,30 +27,44 @@ $ python --version
 Python 3.13.1
 ```
 
-Clone this repo
+
+Clone this repo.
 ```
-git clone https://github.com/harrythe13th/cse316_realtime-os-montoring
+git clone https://github.com/harrythe13th/cse316_realtime-os-montoring && cd cse316_realtime-os-montoring
 ```
 
-Create venv
+
+Create a venv for the dependencies.
 ```
 python -m venv venv
 ```
 
-Activate venv
+
+Activate the venv.
 ```
 source venv/bin/activate
 ```
 
-Install the dependencies
+
+Install the dependencies.
 ```
-pip install -r cse316_realtime-os-montoring/requirements.txt
+pip install -r requirements.txt
 ```
 
-start monitor 
+
+Start monitor.
 ```
-python3 <repo name>/enhanced_process_monitor.py
+python3 enhanced_process_monitor.py
 ```
+
+
+## Usage
+### Web Mode
+The WebUI will be available at port 9999 accessible from your browser as:
+```
+localhost:9999
+```
+
 
 # **Features**
 
