@@ -17,23 +17,20 @@ The **Resource Monitoring Dashboard** aims to provide real-time insights into sy
 
 # **Features**
 
-## **Module 1: Data Collection & Processing**
-**Purpose:** Gather real-time system resource data and process it efficiently.
+## **Data Collection & Processing**
 
-**Roles:**
-* Fetch CPU, memory, disk, and network usage metrics.
-* Monitor running processes and their resource consumption.
+✅ **Real-time monitoring**: Fetch CPU, memory, disk, and network usage every second.
+✅ **Process monitoring**: Display running processes with resource consumption.
+✅ **Historical data storage**: Save previous logs for trend analysis.
 
-## **Module 2: User Interface & Data Visualization**
-**Purpose:** Display system metrics in a structured and visually appealing way.
+## **User Interface & Data Visualization**
 
-**Roles:**
-* Design an interactive dashboard for easy navigation.
-* Provide real-time graphs and charts for better data representation.
+✅ **Live graphs & charts**: Real-time plots for CPU, RAM, and network usage.
+✅ **Resource breakdown**: Show system-wide and per-process resource usage.
+✅ **Dark & light theme support**: User preference-based UI.
 
-## **Module 3: Search, Filter & Process Control**
-**Purpose:** Allow users to search and filter processes and terminate them if needed.
+## **Search, Filter & Process Control**
 
-**Roles:**
-* Implement search and filter options to locate specific processes.
-* Enable process termination from the dashboard.
+✅ **Search & filter**: Find processes by name, PID, or high resource usage.
+✅ **Sort processes**: Arrange by CPU, memory, or disk usage.
+✅ **Terminate processes**: Kill selected processes from the dashboard.
