@@ -15,7 +15,7 @@ The **Resource Monitoring Dashboard** aims to provide real-time insights into sy
 * **Data Visualization**: Presents metrics in an understandable format using graphs and charts.
 * **Process Control**: Enables users to find and terminate resource-heavy processes.
 
-# **Module-Wise Breakdown**
+# **Features**
 
 ## **Module 1: Data Collection & Processing**
 **Purpose:** Gather real-time system resource data and process it efficiently.
